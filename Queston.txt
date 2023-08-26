@@ -1,0 +1,381 @@
+how router = express.Router()
+- Use of any npm 
+
+------------------------
+a JSON document containing information about 30 electronic devices like capacitor and resistor  with properties like physics concept on they work ,multiple uses in real-life applications , price , invented by  presented in array format:
+
+
+I am trying learn git and I want to practice my git skills with you .I want you to ask me beginner to advanced questions about git commands. ask me specific questions about how certain task using git and I WILL write exact command used. please provide me all details required in the task , including the branch name, repo url, files names etc
+
+
+
+-------------------
+Gamma to create slide 
+sildesGPT - to create slide in backend - it is using chatGpt
+https://slidesgo.com/ ---> slidesgo - to template
+https://unroll.me/ --> Unroll.me - to unsubsciobr from email
+https://12ft.io/ --->  paywall remover
+https://sci-hub.se/ ---> View any research papaer - copy reasearch papar name and paste it 
+merlin chrome extention --> want to summarise a content piece
+askyourpdf.com --> Chat with PDF
+https://app.yoodli.ai/ --> interview preparation
+https://formula.dog/ ---> Excel sheet formula and explanation in plain english --> U can use ChatGpt
+https://www.signalhire.com --->  want to know Mobile Number and email address on linkedin
+
+===========================
+Mongo DB commands
+use <DB_NAME> - create or navigate to DB
+show dbs - to see all db
+db - to see current db we r in
+db.dropDatabase() - delete DB
+
+-->Collection level
+db.createCollection("<COLLECTION_NAME>") - create collection
+db.<COLLECTION_NAME>.drop() - drop collection
+
+db.<COLLECTION_NAME>.find() -->  find all documents
+db.<COLLECTION_NAME>.findOne() --> single doc in collection
+db.<COLLECTION_NAME>.find({<KEY1>:<VALUE1>,<KEY2> : <VALUE2>, .....}) --> with condition one and more condition
+db.<COLLECTION_NAME>.findOneReplace({<KEY1>:<VALUE1>,<KEY2> : <VALUE2>, .....}, <replacement>) ---> it will replace everything except _id key value
+db.<COLLECTION_NAME>.findOneDelete({<KEY1>:<VALUE1>,<KEY2> : <VALUE2>, .....})
+
+db.<COLLECTION_NAME>.insertOne({<KEY>:<VALUE>})
+db.<COLLECTION_NAME>.insertMany([ {<KEY>:<VALUE>} , {<KEY>:<VALUE>}])
+
+db.<COLLECTION_NAME>.update( {}, {$set : {} ) -> it will update only one doc by default but if multi:true is given then will update all doc same like updateMany()
+db.<COLLECTION_NAME>.updateOne({})
+db.<COLLECTION_NAME>.updateMany({})
+
+deleteOne({<KEY> : <VALUE>})
+CAREFULL===> deleteMany({}) --> empty braces it will delete all documents :( 
+
+-->operators for MORE REFINE RESULT
+
+
+**-->Get specific key's of document like I want to see all documents city only not all other key's
+find({condition....} , { <KEY_Name> : 1 , <KEY_NAME> : 0 })
+--> 1 correspondes to see that key
+--> 0 do not show these key
+
+
+===============================
+OOP
+paradime - style - code karne ki style 
+functional paradime
+
+========================Rest api video
+postman - rest api client - to test api we need frontend - frontend mhanje client - postman provide interface to interact
+
+
+================
+Angular interview questions
+-Doc file github - codecraft website
+-Coder gyan video (JS and OOP) - Array method, scalar topics
+-How javascript executed engine part - harsh vashitsh
+
+Extra
+-PDF in email -->https://ultimatecourses.com/blog/category/angular/7/
+-Scalar Topics ( common js , ejs , multi threading , streamings )
+-medium
+-ngRx
+ 
+To Know
+-what is new in Angular new version
+-All new things - version , features
+-authentication and authorization
+-Typescript - ultimate course and proj refer
+
+javascript interview question
+- Arc tutorials
+- codecraft 
+
+Node js , express , MongoDB 
+-Arc tutorials
+
+==============================
+
+
+[
+  {
+    "name": "Capacitor",
+    "physics_concept": "Energy storage and charge separation",
+    "applications": [
+      "Filtering",
+      "Timing circuits",
+      "Power factor correction",
+      "Decoupling",
+      "Signal coupling",
+      "Energy storage"
+    ],
+    "price": 100,
+    "currency": "INR",
+    "invented_by": ["Ewald Georg von Kleist"]
+  },
+  {
+    "name": "Resistor",
+    "physics_concept": "Resistance to current flow",
+    "applications": [
+      "Voltage and current division",
+      "Signal conditioning",
+      "Current limiting"
+    ],
+    "price": 50,
+    "currency": "INR",
+    "invented_by": ["Georg Simon Ohm"]
+  },
+  {
+    "name": "Diode",
+    "physics_concept": "Unidirectional current flow",
+    "applications": [
+      "Rectification",
+      "Switching",
+      "Voltage clamping"
+    ],
+    "price": 75,
+    "currency": "INR",
+    "invented_by": ["John Ambrose Fleming"]
+  },
+  {
+    "name": "Transistor",
+    "physics_concept": "Amplification and switching",
+    "applications": [
+      "Amplifiers",
+      "Switching circuits",
+      "Digital logic"
+    ],
+    "price": 150,
+    "currency": "INR",
+    "invented_by": ["John Bardeen", "Walter Houser Brattain", "William Shockley"]
+  },
+  {
+    "name": "Inductor",
+    "physics_concept": "Magnetic field and inductance",
+    "applications": [
+      "Energy storage",
+      "Filters",
+      "Transformers"
+    ],
+    "price": 90,
+    "currency": "INR",
+    "invented_by": ["Joseph Henry"]
+  },
+  {
+    "name": "Capacitive Touch Sensor",
+    "physics_concept": "Electric field sensing",
+    "applications": [
+      "Touchscreen devices",
+      "Proximity detection"
+    ],
+    "price": 70,
+    "currency": "INR",
+    "invented_by": ["George Samuel Hurst"]
+  },
+  {
+    "name": "Light-Emitting Diode (LED)",
+    "physics_concept": "Electroluminescence",
+    "applications": [
+      "Lighting",
+      "Displays",
+      "Indicators"
+    ],
+    "price": 110,
+    "currency": "INR",
+    "invented_by": ["Nick Holonyak Jr."]
+  },
+  {
+    "name": "Microcontroller",
+    "physics_concept": "Embedded system control",
+    "applications": [
+      "Embedded systems",
+      "Automation",
+      "IoT devices"
+    ],
+    "price": 60,
+    "currency": "INR",
+    "invented_by": ["Gary Boone", "Michael Cochran"]
+  },
+  {
+    "name": "Operational Amplifier (Op-Amp)",
+    "physics_concept": "Amplification and signal processing",
+    "applications": [
+      "Signal conditioning",
+      "Filters",
+      "Instrumentation"
+    ],
+    "price": 120,
+    "currency": "INR",
+    "invented_by": ["Karl D. Swartzel Jr.", "John R. Ragazzini"]
+  },
+  {
+    "name": "Transformers",
+    "physics_concept": "Electromagnetic induction",
+    "applications": [
+      "Voltage transformation",
+      "Isolation",
+      "Power distribution"
+    ],
+    "price": 80,
+    "currency": "INR",
+    "invented_by": ["Michael Faraday"]
+  },
+  {
+    "name": "Photodiode",
+    "physics_concept": "Light-to-electricity conversion",
+    "applications": [
+      "Photovoltaic systems",
+      "Optical communication"
+    ],
+    "price": 130,
+    "currency": "INR",
+    "invented_by": ["Harry Oswald Read"]
+  },
+  {
+    "name": "Voltage Regulator",
+    "physics_concept": "Voltage stabilization",
+    "applications": [
+      "Power supplies",
+      "Voltage-sensitive circuits"
+    ],
+    "price": 95,
+    "currency": "INR",
+    "invented_by": ["Robert J. Widlar"]
+  },
+  {
+    "name": "Printed Circuit Board (PCB)",
+    "physics_concept": "Electrical connections and signal routing",
+    "applications": [
+      "Electronic devices",
+      "Computers",
+      "Telecommunications"
+    ],
+    "price": 65,
+    "currency": "INR",
+    "invented_by": ["Paul Eisler"]
+  },
+  {
+    "name": "Integrated Circuit (IC)",
+    "physics_concept": "Miniaturized electronic circuits",
+    "applications": [
+      "Computers",
+      "Consumer electronics",
+      "Embedded systems"
+    ],
+    "price": 140,
+    "currency": "INR",
+    "invented_by": ["Jack Kilby", "Robert Noyce"]
+  },
+  {
+    "name": "Zener Diode",
+    "physics_concept": "Voltage regulation",
+    "applications": [
+      "Voltage reference",
+      "Voltage clamping"
+    ],
+    "price": 85,
+    "currency": "INR",
+    "invented_by": ["Clarence Melvin Zener"]
+  },
+  {
+    "name": "Crystal Oscillator",
+    "physics_concept": "Precise frequency generation",
+    "applications": [
+      "Clocks",
+      "Microprocessors",
+      "Communication systems"
+    ],
+    "price": 100,
+    "currency": "INR",
+    "invented_by": ["Walter Guyton Cady"]
+  },
+  {
+    "name": "Logic Gates",
+    "physics_concept": "Digital logic operations",
+    "applications": [
+      "Digital circuits",
+      "Computers",
+      "Logic circuits"
+    ],
+    "price": 75,
+    "currency": "INR",
+    "invented_by": ["Claude Shannon"]
+  },
+  {
+    "name": "Relay",
+    "physics_concept": "Electromagnetic switch",
+    "applications": [
+      "Switching circuits",
+      "Automation",
+      "Control systems"
+    ],
+    "price": 115,
+    "currency": "INR",
+    "invented_by": ["Joseph Henry"]
+  },
+  {
+    "name": "Potentiometer",
+    "physics_concept": "Variable resistance",
+    "applications": [
+      "Volume control",
+      "Variable voltage divider",
+      "Sensors"
+    ],
+    "price": 55,
+    "currency": "INR",
+    "invented_by": ["Johann Christian Poggendorff"]
+  },
+  {
+    "name": "Printed Circuit Board (PCB) Capacitor",
+    "physics_concept": "Energy storage and filtering",
+    "applications": [
+      "Electronics",
+      "Power supplies",
+      "Audio systems"
+    ],
+    "price": 125,
+    "currency": "INR",
+    "invented_by": ["Albert Hanson"]
+  },
+  {
+    "name": "Thermistor",
+    "physics_concept": "Temperature-sensitive resistor",
+    "applications": [
+      "Temperature measurement",
+      "Temperature compensation"
+    ],
+    "price": 90,
+    "currency": "INR",
+    "invented_by": ["Samuel Ruben"]
+  },
+  {
+    "name": "MOSFET",
+    "physics_concept": "Field-effect transistor",
+    "applications": [
+      "Power amplifiers",
+      "Switching circuits",
+      "Digital circuits"
+    ],
+    "price": 135,
+    "currency": "INR",
+    "invented_by": ["Dawon Kahng", "Martin Atalla"]
+  }
+]
+----------------------
+regular functions the this keyword represented the object that called the function
+arrow functions the this keyword always represents the object that "defined" the arrow function
+
+Javascript is single threaded
+-JavaScript is a single-threaded programming language, meaning that it executes one operation at a time in a single sequence. This means that JavaScript code is processed sequentially, and each operation must complete before the next one can start.
+
+In a single-threaded environment, if a particular operation takes a long time to complete, it can block the execution of subsequent operations. For example, if a JavaScript function performs a lengthy computation or a blocking I/O operation, it will prevent other code from executing until it finishes.
+
+However, it's important to note that JavaScript also has features that allow for asynchronous programming, enabling non-blocking behavior. This is achieved through mechanisms like callbacks, promises, and async/await. Asynchronous operations in JavaScript leverage event-driven programming and the browser's event loop to handle tasks concurrently without blocking the main thread.
+
+By using asynchronous programming techniques, JavaScript can initiate tasks and continue executing other code while waiting for those tasks to complete. This allows for more efficient handling of I/O operations, such as making HTTP requests or reading files, without blocking the execution of the rest of the code.
+
+So, while JavaScript is single-threaded by default, it provides mechanisms for asynchronous programming to handle concurrent tasks efficiently and avoid blocking operations.
+
+-While JavaScript itself runs in a single thread, the browser or runtime environment may have additional threads for handling tasks like rendering, networking, or running Web Workers. These additional threads allow certain operations to be performed concurrently, but the JavaScript code execution itself remains single-threaded.
+
+
+
+

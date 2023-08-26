@@ -1,0 +1,31 @@
+f-decorators
+They are just functions that can be used to add meta-data, properties or functions to the thing they are attached to
+	
+--what is enum
+--The command runs the application through a web-server that support HTML5 push-state routing.
+
+BOOTSTRAP
+to boot or to load a program into a computer using a much smaller initial program to load in the desired program
+To "bootstrap" an Angular application means to initialize and start the execution of the application
+
+-module concepts
+In JavaScript the term module generally refers to code which exists in a single file. An NgModule is a different concept, it combines code from different files together into one package.
+
+NOTE - By setting the selector to joke we’ve told angular that whenever it finds a tag in the HTML like <joke></joke> to use an instance of the JokeComponent class to control it.
+
+pathlocation strategy and hashlocation strategy
+
+
+MVC architecture
+The component class contains the business logic, data manipulation methods, and interacts with services or APIs to retrieve or update the data. It communicates with the view by using Angular's data binding and event handling mechanisms, allowing the view to reflect the changes in the model and respond to user actions.
+
+-what is design pattern
+
+-constructor VS ngOnInit
+Unlike the constructor, ngOnInit is called after Angular has initialized the component's input properties and injected dependencies, and after the DOM is available for manipulation. This makes it a safer place to perform more complex initialization tasks.
+
+========Git configuring
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+======================
