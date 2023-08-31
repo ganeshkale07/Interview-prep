@@ -28,4 +28,46 @@ Unlike the constructor, ngOnInit is called after Angular has initialized the com
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 
-======================
+=======Typescript Notes
+!
+The ! operator asserts that a value will not be null or undefined
+as it essentially tells TypeScript to trust you
+If you're wrong and the value is actually null or undefined, it will result in a runtime error.
+
+?
+The ? operator is used when defining properties in TypeScript interfaces or types to indicate that a property is optional, meaning it may or may not be present in an object of that type.
+
+Signature in Typescript
+Signatures are an essential part of TypeScript's type system and play a crucial role in defining the shape of functions and methods that can be used in your code.
+
+Interfaces are contract
+They specify the shape of object
+
+interfaces duck typing
+
+Classes
+class Car {
+    constructor(public model:string ,public year:number){
+
+    }
+	
+    static color = red;
+}
+
+let xuv = new Car("300",1990);
+
+console.log(xuv.model);
+
+-accessor function means  getter and setters 
+-static properties only accessible on class itself like --> Car.color
+-Access Modifiers - public , private , protected 
+	private - strictly accessible inside the class "only" not in sub-class
+ 	protected - available inside 'main' and 'sub classes' not in instance of classes
+-Inheritance means use of extends keyword
+-implements means to have contract in between
+
+Abstract classes
+Created with abstract keyword
+base classes may not be instantiated only sub classes created from it can be instantiated
+may contain implementation details 
+If u add abstract method in base class other subclass has to implement it first
