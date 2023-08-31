@@ -71,3 +71,12 @@ Created with abstract keyword
 base classes may not be instantiated only sub classes created from it can be instantiated
 may contain implementation details 
 If u add abstract method in base class other subclass has to implement it first
+
+Generics
+Code that works with multiple types
+--In a general sense, the term "constraint" refers to a limitation, restriction, or condition that is imposed on something
+
+=========Ngrx
+Effects 
+Basically to handle async things they are used
+Take an action - do some work (like calling a service )- Return new action
