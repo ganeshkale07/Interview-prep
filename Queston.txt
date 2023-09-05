@@ -376,6 +376,23 @@ So, while JavaScript is single-threaded by default, it provides mechanisms for a
 
 -While JavaScript itself runs in a single thread, the browser or runtime environment may have additional threads for handling tasks like rendering, networking, or running Web Workers. These additional threads allow certain operations to be performed concurrently, but the JavaScript code execution itself remains single-threaded.
 
+--->Learnings from SQL
+DBMS - A software application used to manage (CRUD) our DB
+User --- SQL ----> DBMS -- DB
+With SQL we tell DBMS to do something and DBMS make changes to DB side
+
+constraints - Rules
+clauses - condition
+
+IN ( cond_1 , cond_2, cond_3) - to check multiple condition we use it
+
+cascading - If something change at one place it should also change at some other plcae as well at same time
+
+scehma - Means strcuture , dhacha , design 
+Ex: column_name datatype constraints
+
+ALTHER - commands are used to change scehma
+
 
 
 
