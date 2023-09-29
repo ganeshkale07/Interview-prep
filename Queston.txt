@@ -94,272 +94,6 @@ Node js , express , MongoDB
 
 ==============================
 
-
-[
-  {
-    "name": "Capacitor",
-    "physics_concept": "Energy storage and charge separation",
-    "applications": [
-      "Filtering",
-      "Timing circuits",
-      "Power factor correction",
-      "Decoupling",
-      "Signal coupling",
-      "Energy storage"
-    ],
-    "price": 100,
-    "currency": "INR",
-    "invented_by": ["Ewald Georg von Kleist"]
-  },
-  {
-    "name": "Resistor",
-    "physics_concept": "Resistance to current flow",
-    "applications": [
-      "Voltage and current division",
-      "Signal conditioning",
-      "Current limiting"
-    ],
-    "price": 50,
-    "currency": "INR",
-    "invented_by": ["Georg Simon Ohm"]
-  },
-  {
-    "name": "Diode",
-    "physics_concept": "Unidirectional current flow",
-    "applications": [
-      "Rectification",
-      "Switching",
-      "Voltage clamping"
-    ],
-    "price": 75,
-    "currency": "INR",
-    "invented_by": ["John Ambrose Fleming"]
-  },
-  {
-    "name": "Transistor",
-    "physics_concept": "Amplification and switching",
-    "applications": [
-      "Amplifiers",
-      "Switching circuits",
-      "Digital logic"
-    ],
-    "price": 150,
-    "currency": "INR",
-    "invented_by": ["John Bardeen", "Walter Houser Brattain", "William Shockley"]
-  },
-  {
-    "name": "Inductor",
-    "physics_concept": "Magnetic field and inductance",
-    "applications": [
-      "Energy storage",
-      "Filters",
-      "Transformers"
-    ],
-    "price": 90,
-    "currency": "INR",
-    "invented_by": ["Joseph Henry"]
-  },
-  {
-    "name": "Capacitive Touch Sensor",
-    "physics_concept": "Electric field sensing",
-    "applications": [
-      "Touchscreen devices",
-      "Proximity detection"
-    ],
-    "price": 70,
-    "currency": "INR",
-    "invented_by": ["George Samuel Hurst"]
-  },
-  {
-    "name": "Light-Emitting Diode (LED)",
-    "physics_concept": "Electroluminescence",
-    "applications": [
-      "Lighting",
-      "Displays",
-      "Indicators"
-    ],
-    "price": 110,
-    "currency": "INR",
-    "invented_by": ["Nick Holonyak Jr."]
-  },
-  {
-    "name": "Microcontroller",
-    "physics_concept": "Embedded system control",
-    "applications": [
-      "Embedded systems",
-      "Automation",
-      "IoT devices"
-    ],
-    "price": 60,
-    "currency": "INR",
-    "invented_by": ["Gary Boone", "Michael Cochran"]
-  },
-  {
-    "name": "Operational Amplifier (Op-Amp)",
-    "physics_concept": "Amplification and signal processing",
-    "applications": [
-      "Signal conditioning",
-      "Filters",
-      "Instrumentation"
-    ],
-    "price": 120,
-    "currency": "INR",
-    "invented_by": ["Karl D. Swartzel Jr.", "John R. Ragazzini"]
-  },
-  {
-    "name": "Transformers",
-    "physics_concept": "Electromagnetic induction",
-    "applications": [
-      "Voltage transformation",
-      "Isolation",
-      "Power distribution"
-    ],
-    "price": 80,
-    "currency": "INR",
-    "invented_by": ["Michael Faraday"]
-  },
-  {
-    "name": "Photodiode",
-    "physics_concept": "Light-to-electricity conversion",
-    "applications": [
-      "Photovoltaic systems",
-      "Optical communication"
-    ],
-    "price": 130,
-    "currency": "INR",
-    "invented_by": ["Harry Oswald Read"]
-  },
-  {
-    "name": "Voltage Regulator",
-    "physics_concept": "Voltage stabilization",
-    "applications": [
-      "Power supplies",
-      "Voltage-sensitive circuits"
-    ],
-    "price": 95,
-    "currency": "INR",
-    "invented_by": ["Robert J. Widlar"]
-  },
-  {
-    "name": "Printed Circuit Board (PCB)",
-    "physics_concept": "Electrical connections and signal routing",
-    "applications": [
-      "Electronic devices",
-      "Computers",
-      "Telecommunications"
-    ],
-    "price": 65,
-    "currency": "INR",
-    "invented_by": ["Paul Eisler"]
-  },
-  {
-    "name": "Integrated Circuit (IC)",
-    "physics_concept": "Miniaturized electronic circuits",
-    "applications": [
-      "Computers",
-      "Consumer electronics",
-      "Embedded systems"
-    ],
-    "price": 140,
-    "currency": "INR",
-    "invented_by": ["Jack Kilby", "Robert Noyce"]
-  },
-  {
-    "name": "Zener Diode",
-    "physics_concept": "Voltage regulation",
-    "applications": [
-      "Voltage reference",
-      "Voltage clamping"
-    ],
-    "price": 85,
-    "currency": "INR",
-    "invented_by": ["Clarence Melvin Zener"]
-  },
-  {
-    "name": "Crystal Oscillator",
-    "physics_concept": "Precise frequency generation",
-    "applications": [
-      "Clocks",
-      "Microprocessors",
-      "Communication systems"
-    ],
-    "price": 100,
-    "currency": "INR",
-    "invented_by": ["Walter Guyton Cady"]
-  },
-  {
-    "name": "Logic Gates",
-    "physics_concept": "Digital logic operations",
-    "applications": [
-      "Digital circuits",
-      "Computers",
-      "Logic circuits"
-    ],
-    "price": 75,
-    "currency": "INR",
-    "invented_by": ["Claude Shannon"]
-  },
-  {
-    "name": "Relay",
-    "physics_concept": "Electromagnetic switch",
-    "applications": [
-      "Switching circuits",
-      "Automation",
-      "Control systems"
-    ],
-    "price": 115,
-    "currency": "INR",
-    "invented_by": ["Joseph Henry"]
-  },
-  {
-    "name": "Potentiometer",
-    "physics_concept": "Variable resistance",
-    "applications": [
-      "Volume control",
-      "Variable voltage divider",
-      "Sensors"
-    ],
-    "price": 55,
-    "currency": "INR",
-    "invented_by": ["Johann Christian Poggendorff"]
-  },
-  {
-    "name": "Printed Circuit Board (PCB) Capacitor",
-    "physics_concept": "Energy storage and filtering",
-    "applications": [
-      "Electronics",
-      "Power supplies",
-      "Audio systems"
-    ],
-    "price": 125,
-    "currency": "INR",
-    "invented_by": ["Albert Hanson"]
-  },
-  {
-    "name": "Thermistor",
-    "physics_concept": "Temperature-sensitive resistor",
-    "applications": [
-      "Temperature measurement",
-      "Temperature compensation"
-    ],
-    "price": 90,
-    "currency": "INR",
-    "invented_by": ["Samuel Ruben"]
-  },
-  {
-    "name": "MOSFET",
-    "physics_concept": "Field-effect transistor",
-    "applications": [
-      "Power amplifiers",
-      "Switching circuits",
-      "Digital circuits"
-    ],
-    "price": 135,
-    "currency": "INR",
-    "invented_by": ["Dawon Kahng", "Martin Atalla"]
-  }
-]
-----------------------
 regular functions the this keyword represented the object that called the function
 arrow functions the this keyword always represents the object that "defined" the arrow function
 
@@ -393,6 +127,24 @@ Ex: column_name datatype constraints
 
 ALTHER - commands are used to change scehma
 
+-----------------------------------
+What are SOLID principle
+
+1. Single Responsibility Principle (SRP):
+If the chef also handles the restaurant's finances and customer service, it violates the SRP
+
+2.Open-Closed Principle (OCP):
+Principle: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+(Implement interfaces and use those evertime making changes in original class code )  
+
+3. Liskov Substitution Principle (LSP):
+Simplified Principle: If you have a group of related things (like animals in a zoo), you should be able to replace any thing with another thing from that group without causing problems. (should have generalised class for same type of object like animal)
+
+4. Interface Segregation Principle (ISP):
+Simplified Principle: Don't force someone to use things they don't need
+
+5. Dependency Inversion Principle (DIP):
+Simplified Principle: High-level parts of your program (like the main features) shouldn't depend on low-level details (like specific classes). Both should rely on a common understanding (abstraction).
 
 
 
