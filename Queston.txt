@@ -128,6 +128,14 @@ HOW JAVASCRIPT WORKS
 code compilation - why we do - Early error checking and Determine approriate scope for varible
 Code execution phase - where execution context created 
 
+Async and defer in script tag 
+- async do parallely parsing HTML and loading JS and executing JS will not wait for parsing to complete
+- Defer will wait for parsing then code execution
+
+Event Capturing and event bubbling - U U U U
+Event delegation - on which element from DOM triggered event
+
+
 --->Learnings from SQL
 DBMS - A software application used to manage (CRUD) our DB
 User --- SQL ----> DBMS -- DB
@@ -143,7 +151,7 @@ cascading - If something change at one place it should also change at some other
 scehma - Means strcuture , dhacha , design 
 Ex: column_name datatype constraints
 
-ALTHER - commands are used to change scehma
+ALTHER - commands are used to change scehma    
 
 -----------------------------------
 What are SOLID principle
