@@ -93,22 +93,40 @@ Node js , express , MongoDB
 -Arc tutorials
 
 ==============================
+varibale declare or declaring 
+var a , let c , const d
+
+varible initialization or initialize
+var a = 1 , let c = 2 , const d = 3
+
+LET 
+carName = "Volvo";
+let carName;
+Meaning: The block of code is aware of the variable, but it cannot be used until it has been declared.
+Using a let variable before it is declared will result in a ReferenceError.
+[ Delcare kelay varach use karu shakto let variable , karan declare first then use variables in code that is good pratice)
 
 regular functions the this keyword represented the object that called the function
 arrow functions the this keyword always represents the object that "defined" the arrow function
 
 Javascript is single threaded
 -JavaScript is a single-threaded programming language, meaning that it executes one operation at a time in a single sequence. This means that JavaScript code is processed sequentially, and each operation must complete before the next one can start.
-
 In a single-threaded environment, if a particular operation takes a long time to complete, it can block the execution of subsequent operations. For example, if a JavaScript function performs a lengthy computation or a blocking I/O operation, it will prevent other code from executing until it finishes.
-
 However, it's important to note that JavaScript also has features that allow for asynchronous programming, enabling non-blocking behavior. This is achieved through mechanisms like callbacks, promises, and async/await. Asynchronous operations in JavaScript leverage event-driven programming and the browser's event loop to handle tasks concurrently without blocking the main thread.
-
 By using asynchronous programming techniques, JavaScript can initiate tasks and continue executing other code while waiting for those tasks to complete. This allows for more efficient handling of I/O operations, such as making HTTP requests or reading files, without blocking the execution of the rest of the code.
-
 So, while JavaScript is single-threaded by default, it provides mechanisms for asynchronous programming to handle concurrent tasks efficiently and avoid blocking operations.
-
 -While JavaScript itself runs in a single thread, the browser or runtime environment may have additional threads for handling tasks like rendering, networking, or running Web Workers. These additional threads allow certain operations to be performed concurrently, but the JavaScript code execution itself remains single-threaded.
+
+Hoisting 
+var keyword and function expression are hoisted (move to all way top of code )
+Hoisting is JavaScript's default behavior of moving all declarations to the top.
+
+closure
+A closure is a function having access to the parent scope, even after the parent function has closed.
+
+HOW JAVASCRIPT WORKS
+code compilation - why we do - Early error checking and Determine approriate scope for varible
+Code execution phase - where execution context created 
 
 --->Learnings from SQL
 DBMS - A software application used to manage (CRUD) our DB
