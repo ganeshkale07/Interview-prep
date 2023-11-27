@@ -80,3 +80,31 @@ Code that works with multiple types
 Effects 
 Basically to handle async things they are used
 Take an action - do some work (like calling a service )- Return new action
+
+What is NgRx
+It's often referred to as the state management library for Angular. 
+based on Redux pattern
+NgRx is built on top of RxJS, which is a library for reactive programming using Observables.
+
+Web API
+Web API typically refers to a set of rules and conventions for building and interacting with web services,
+which are endpoints on a web server that allow communication between different applications over the internet.
+It allows different software applications, often on different servers, to interact with each other.
+
+When to Use
+notify everyone
+getting data unchanged data again and again
+there is state everywhere
+
+When changes thing trigger in onChangeDetectionStrategy
+The component receives an input.
+An event handler is triggered from the component or one of its children.
+The component or one of its children fires an HTTP request.
+An observable subscribed to by the component emits an event.
+ex:
+@Component({
+  selector: 'app-example',
+  templateUrl: 'example.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+
