@@ -135,6 +135,16 @@ Async and defer in script tag
 Event Capturing and event bubbling - U U U U
 Event delegation - on which element from DOM triggered event
 
+Call - accept arguments and apply - accepts array of arguments
+
+Bind - u store a function in variable
+
+Debouncing - time-consuming tasks do not fire so often
+-If difference between two event is exceed then only make function call
+
+Throttling - make the function call in a predetermined time interval irrespective of continuous user actions.
+- triggered function once specific timeInterval has passed 
+
 
 --->Learnings from SQL
 DBMS - A software application used to manage (CRUD) our DB
@@ -171,6 +181,8 @@ Simplified Principle: Don't force someone to use things they don't need
 
 5. Dependency Inversion Principle (DIP):
 Simplified Principle: High-level parts of your program (like the main features) shouldn't depend on low-level details (like specific classes). Both should rely on a common understanding (abstraction).
+
+
 
 
 
