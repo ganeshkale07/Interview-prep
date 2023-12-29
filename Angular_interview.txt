@@ -66,15 +66,49 @@ console.log(xuv.model);
 -Inheritance means use of extends keyword
 -implements means to have contract in between
 
+-->
 Abstract classes
 Created with abstract keyword
 base classes may not be instantiated only sub classes created from it can be instantiated
 may contain implementation details 
 If u add abstract method in base class other subclass has to implement it first
 
+--->
 Generics
 Code that works with multiple types
 --In a general sense, the term "constraint" refers to a limitation, restriction, or condition that is imposed on something
+
+TypseScript Generics understanding
+
+1. thing worked
+
+interface Lengthwise {
+  length: number;
+}
+
+function loggingIdentity<Type extends Lengthwise>(arg: Type): Type {
+  console.log(arg.length); // Now we know it has a .length property, so no more error
+  return arg;
+}
+
+loggingIdentity(["Hanesh","pooo",99]);
+
+--> ["Hanesh","pooo",99] these whole treated as TYPE which has length property - so worked
+
+2. Thing won't work
+
+interface Lengthwise {
+  length: number;
+}
+
+function loggingIdentity<Type extends Lengthwise>(arg: Array<Type>): Type[] {
+  console.log(arg.length); // Now we know it has a .length property, so no more error
+  return arg;
+}
+
+loggingIdentity(["Hanesh","pooo",99]);
+
+--> ["Hanesh","pooo",99] individual treated as TYPE out of which 99 number don't have it - failed
 
 =========Ngrx
 Effects 
