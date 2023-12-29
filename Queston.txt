@@ -145,6 +145,63 @@ Debouncing - time-consuming tasks do not fire so often
 Throttling - make the function call in a predetermined time interval irrespective of continuous user actions.
 - triggered function once specific timeInterval has passed 
 
+-->
+UNDEFINED AND NOT DEFINED
+var a;
+console.log(a)
+console.log(x)
+
+-->
+a is undefined - in global scope is allocated some memory for time being assing "undefined"
+x is not defined - in global scope is not even known - that's why not defined
+
+-->
+Type coercion
+Type coercion happens implicitly during operations or comparisons, where JavaScript automatically converts values to make them compatible. 
+Type conversion
+Type conversion, on the other hand, involves explicit conversion of values using functions or operators provided by JavaScript.
+
+-->
+Async and Await
+Async function always return a promise
+Await keyword can only be use inside async function
+Ex:
+const p1 = new Promise((res, rej) => {
+  /***SetTimeout will start in webAPI as soon as it is assign it won't wait */
+  setTimeout(() => {
+    res("p1 resolved");
+  }, 5000);
+});
+
+const p2 = new Promise((res, rej) => {
+  setTimeout(() => {
+    res("p2 resolved");
+  }, 10000);
+});
+
+async function foo() {
+  try {
+    console.log("Hello");
+    const a = await p1;
+    //a contain results return by resolve()
+    console.log(a);
+    const b = await p2;
+    //a contain results return by resolve()
+    console.log(b);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+foo();
+//error handling traditional way for async and await
+//we can use catch() because async fn return us promise
+foo().catch((error) => console.log(error));
+
+-->
+deep copying vs. shallow copying
+A deep copy means that all of the values of the new variable are copied and disconnected from the original variable.
+A shallow copy means that certain (sub-)values are still connected to the original variable.
 
 --->Learnings from SQL
 DBMS - A software application used to manage (CRUD) our DB
