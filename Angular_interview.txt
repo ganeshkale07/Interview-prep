@@ -1,3 +1,9 @@
+---> NPM and NPX
+NPM - Think of npm as a tool for adding, removing, and managing pieces of reusable code (called packages or libraries) in your JavaScript projects
+
+NPX - Imagine npx as a tool that lets you quickly use something from the internet without installing it permanently on your computer. It's like borrowing a tool for a moment, using it, and then giving it back.
+
+-->
 f-decorators
 They are just functions that can be used to add meta-data, properties or functions to the thing they are attached to
 	
